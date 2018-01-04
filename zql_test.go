@@ -26,7 +26,7 @@ func Test_influxdb_query(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	query, err := zqlObj.GetInfluxdbQuery("group", "hostname", "127.0.0.1")
+	query, err := zqlObj.GetInfluxdbQuery("_vivi")
 	if err != nil {
 		t.Error(err)
 	}
